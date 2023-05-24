@@ -30,8 +30,8 @@ var swiper = new Swiper(".vehicles-slider", {
   function sendEmail(){
     Email.send({
       SecureToken: "cbcdbf9e-c48b-4344-96c1-f0a3b5a053ba",
-      To : 'shubham.barwad20@gmail.com',
-      From : document.getElementById('email').value,
+      To : 'sbarwad20595@gmail.com',
+      From : "sbarwad20595@gmail.com",
       Subject : document.getElementById('subject').value,
       Body : "Name: "+ document.getElementById('name').value
             +"<br> Email:" + document.getElementById('email').value
