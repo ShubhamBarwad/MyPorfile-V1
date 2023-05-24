@@ -75,9 +75,9 @@ a{
     font-size: 12px;
 }
 .accent{
-    color: var(--accent-color);
-    background: none;
-    -webkit-text-fill-color:currentColor;
+    color: var(--accent-color) !important;
+    background: none !important;
+    -webkit-text-fill-color:currentColor !important;
 }
 .gap-1{
     gap: 1rem;
@@ -108,6 +108,8 @@ a{
     text-decoration: none;
     text-transform: uppercase;
     animation: buttonpulse 3000ms infinite;
+    border: none;
+    background-color: transparent;
     /* border-left: 1px solid #78828d;
     border-right: 1px solid #78828d;
     padding: 10px 25px;
@@ -148,6 +150,11 @@ a{
     bottom: auto;
     top: 0;
     width: 100%;
+}
+.btn-2:hover{
+    color: var(--accent-color) !important;
+    background: none !important;
+    -webkit-text-fill-color:currentColor !important;
 }
 .skill-bar-div-percent{
     width: 100%;
@@ -224,6 +231,7 @@ header{
 .logo{
     /* font-family: 'Roboto Mono', monospace; */
     letter-spacing: 5px;
+    margin: 0 !important;
 }
 .menu{
     width: 40%;
